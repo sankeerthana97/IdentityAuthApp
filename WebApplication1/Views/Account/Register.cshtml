@@ -1,0 +1,19 @@
+﻿@model WebApplication1.Models.RegisterViewModel
+
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+
+
+<h2>Register</h2>
+
+<form asp-action="Register" method="post">
+<input asp-for="Email" placeholder="Enter email" /></<br /><br/><br/>
+
+<input asp-for="Password" placeholder="Enter password"/><br/><br/><br/>
+<button type="submit">Register</button>
+
+</form>
